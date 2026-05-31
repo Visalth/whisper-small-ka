@@ -1,0 +1,9 @@
+torch==2.5.1
+transformers
+datasets
+accelerate
+evaluate
+jiwer
+librosa
+soundfile
+tensorboard

@@ -1,0 +1,5 @@
+whisper-small-ka/
+.venv/
+.idea/
+__pycache__/
+*.pyc

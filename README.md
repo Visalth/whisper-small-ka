@@ -1,7 +1,7 @@
 # Whisper Small - Georgian Fine-tune
 
 Fine-tuned version of [openai/whisper-small](https://huggingface.co/openai/whisper-small) on the Georgian language using the [Google FLEURS](https://huggingface.co/datasets/google/fleurs) dataset.
-url =  https://huggingface.co/Visalth/whisper-small-ka/commit/754b700c5d088d4a8ab96c9f8319954fc3131675
+url =  https://huggingface.co/Visalth/whisper-small-ka
 
 ## Results
 

@@ -33,7 +33,7 @@ url =  https://huggingface.co/Visalth/whisper-small-ka
 from transformers import WhisperProcessor, WhisperForConditionalGeneration
 
 processor = WhisperProcessor.from_pretrained("openai/whisper-small", language="Georgian", task="transcribe")
-model = WhisperForConditionalGeneration.from_pretrained("irakli/whisper-small-ka")
+model = WhisperForConditionalGeneration.from_pretrained("Visalth/whisper-small-ka")
 
 inputs = processor(audio_array, sampling_rate=16000, return_tensors="pt")
 predicted_ids = model.generate(**inputs)

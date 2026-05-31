@@ -5,6 +5,7 @@ from jiwer import wer
 
 processor = WhisperProcessor.from_pretrained("openai/whisper-small", language="Georgian", task="transcribe")
 model = WhisperForConditionalGeneration.from_pretrained("./whisper-small-ka")
+# Or load from HuggingFace: WhisperForConditionalGeneration.from_pretrained("Visalth/whisper-small-ka")
 model = model.to("cuda")
 dataset = load_dataset("google/fleurs", "ka_ge")
 test_samples = dataset["test"].select(range(50))
